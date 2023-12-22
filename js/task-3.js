@@ -1,11 +1,12 @@
 function filterArray(numbers, value) {
   let moreThenValue = [];
 
-  for (let i = 0; i < value; i++) {
+  for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] > value) {
       moreThenValue.push(numbers[i]);
     }
   }
+
   return moreThenValue;
 }
 
